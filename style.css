@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background-color: #e0f2f7;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #26a69a;
+}
+
+.hero p {
+    font-size: 1.1em;
+    color: #4db6ac;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+section {
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #00897b;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #b2dfdb;
+    padding-bottom: 10px;
+}
+
+.problem p, .impact p, .get-involved p {
+    font-size: 1em;
+}
+
+.solutions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.solution-item {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.solution-item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.solution-item h3 {
+    color: #00acc1;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.solution-item p {
+    font-size: 0.95em;
+    color: #555;
+}
+
+.get-involved {
+    text-align: center;
+    background-color: #ccf2ff;
+}
+
+.get-involved h2 {
+    color: #006064;
+}
